@@ -1,0 +1,48 @@
+.contact {
+ @include flexbox(center);
+&-caption {
+  margin-top: 4rem;
+  text-align: center;
+  color: $primary-color;
+  }
+&-heading {
+  text-align: center;
+}
+  &-phone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2rem;
+    &-icon {
+      width: 5rem;
+      height: 5rem;
+      border: 1px solid $primary-color;
+      border-radius: 50%;
+      @include flexbox (center, center, inline-flex);
+      margin-bottom: 2.5rem;
+      cursor: pointer;
+    }
+    &_text {
+      font-size: 2rem;
+      text-transform: capitalize;
+    }
+    &_number {
+      font-size: 6rem;
+      font-family: $header-font;
+      color: $primary-color;
+    }
+  }
+  &_date {
+    @include flexbox(flex-start,space-between);
+    margin: 2rem auto 0;
+    &-items {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  img {
+    margin: 3rem auto;
+
+  }
+}

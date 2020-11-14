@@ -1,0 +1,66 @@
+.footer {
+  background-color:#F2F6F7;
+  &-top {
+    padding: 6rem 2rem;
+    @include flexbox(flex-start, space-between);
+    margin-left: -5rem;
+  }
+  &_logo {
+    max-height: 10rem;
+  }
+  &__header {
+    min-height: 10rem;
+    margin-bottom: 3.5rem;
+  }
+  &-items {
+    width: 25%;
+    @include flexbox(flex-start, flex-start, column);
+    padding-left: 5rem;
+    &:nth-child(2) {
+      width: 20%;
+    }
+    &:last-child {
+      width: 30%;
+    }
+    &_text {
+      margin-bottom: 2rem;
+    }
+  }
+  &-sub {
+    width: 100%;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 1rem;
+    background-color: #fff;
+    @include flexbox(center center);
+  }
+  &-input {
+    border: 0;
+    outline: none;
+    flex: 1;
+    padding-right:1rem;
+  }
+  &-btn {
+    outline: 0;
+    border: 0;
+    color: $primary-color;
+    background-color: transparent;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  &-bottom_container {
+    @include flexbox(flex-start, space-between);
+  }
+  &-socials {
+    display: flex;
+    flex-direction: row;
+    margin:0 3.6rem 3.6rem;
+    &_item {
+      margin-right: 2rem;
+      font-size: 2rem;
+    }
+  }
+  &-text {
+    margin-left: 1rem;
+  }
+}

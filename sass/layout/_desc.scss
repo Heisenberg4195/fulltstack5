@@ -1,0 +1,35 @@
+.desc {
+  background: url(../../img/js1.jpg) no-repeat center center / cover;
+  padding: 6.5rem 0 22.3rem;
+  &-about_us {
+    padding-left: 38%;
+    padding-right: 10%;
+  }
+  &-caption {
+    color: $primary-color;
+    font-size: 1.5rem;
+    margin-bottom: 4rem;
+  }
+  &-content {
+    line-height: 1.8;
+    margin-bottom: 3rem;
+  }
+  &-direction {
+    display: inline-flex;
+    align-items: stretch;
+    justify-content: flex-start;
+    background-color: #ff8800;
+    border-radius: 1rem;
+    overflow: hidden;
+    color: white;
+    &_btn {
+      display: block;
+      padding: 2rem;
+    }
+    &_arrow {
+      @include flexbox(center,center);
+      background-color:#FEA94C;
+      padding: 2rem;
+    }
+  }
+}

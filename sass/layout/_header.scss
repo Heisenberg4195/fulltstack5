@@ -1,0 +1,54 @@
+.header {
+  height: 99rem;
+  background:url("../img/bg.jpg") no-repeat right top / cover;
+  &_top {
+    @include flexbox(center, space-between);
+    padding-top: 2.5rem;
+  }
+  &_menu {
+   @include flexbox(center);
+    &-items {
+      padding-left: 5.7rem;
+      cursor: pointer;
+      i {
+        color: $primary-color;
+      }
+    }
+  }
+  &-main {
+  padding-top: 16.8rem;
+  max-width: 75.6rem;
+  padding-bottom: 6rem;
+  }
+  &_search {
+    width: 100%;
+    @include flexbox(stretch);
+    border-radius: 1rem;
+    background-color: white;
+    margin-top: 6rem;
+    &-text {
+      @include flexbox(center);
+      padding: 2rem;
+      border-right: 0;
+      border: 0;
+      border-radius: 1rem 0 0 1rem;
+      flex-grow: 1;
+    }
+    &-input {
+      flex-grow: 1;
+      border: 0;
+      margin-left: 1rem;
+    }
+  }
+  &_socials {
+    @include flexbox(center);
+    &-items {
+      margin-right: 9rem;
+      font-size: 2rem;
+      i {
+        color: $primary-color;
+      }
+    }
+  }
+}
+

@@ -1,0 +1,13 @@
+.btn_search {
+  flex-shrink: 0;
+  @include flexbox (center, center);
+  background-color: #FF8817;
+  color: white;
+  border: 0;
+  border-radius: 0 1rem 1rem 0 ;
+  padding: 0 4rem;
+  cursor: pointer;
+  i {
+    margin-left: 5px;
+  }
+}
