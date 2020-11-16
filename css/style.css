@@ -95,8 +95,7 @@ h3 {
 
 h5 {
   font-family: "Playfair Display", serif;
-  font-weight: bold;
-  font-size: 3rem;
+  font-size: 2rem;
   text-transform: capitalize;
 }
 
@@ -144,6 +143,7 @@ select {
   justify-content: flex-start;
   flex-direction: row;
   flex-wrap: nowrap;
+  margin-bottom: 4rem;
 }
 .contact-caption {
   margin-top: 4rem;
@@ -313,7 +313,7 @@ select {
 }
 
 .menu {
-  padding: 10rem 0;
+  padding: 2rem 0;
   background-color: #f2f6f7;
 }
 .menu-tab {
@@ -408,6 +408,43 @@ select {
   background-color: #ff8800;
   border: 0;
   border-radius: 4px;
+}
+
+.customer {
+  padding: 0 auto;
+  margin-bottom: 5rem;
+}
+.customer__container {
+  max-width: 1375px;
+}
+.customer__avatar {
+  width: 14rem;
+  height: 14rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 2.5rem;
+}
+.customer__items {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.customer__names {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+.customer__job {
+  color: gray;
+  margin-bottom: 2rem;
+}
+.customer__rating {
+  color: #ff8800;
+  margin-bottom: 2rem;
+}
+.customer__comment {
+  font-size: 2rem;
+  font-style: italic;
+  line-height: 1.5;
 }
 
 .footer {

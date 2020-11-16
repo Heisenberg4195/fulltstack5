@@ -1,0 +1,35 @@
+.customer {
+  padding: 0 auto;
+  margin-bottom: 5rem;
+  &__container {
+    max-width: 1375px;
+  }
+  &__avatar {
+    @include size(14rem);
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 2.5rem;
+  }
+  &__items {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  &__names {
+    font-size: 2.5rem;
+    font-weight: 500;
+  }
+  &__job {
+    color: gray;
+    margin-bottom: 2rem;
+  }
+  &__rating {
+    color: $primary-color;
+    margin-bottom: 2rem;
+  }
+  &__comment {
+    font-size: 2rem;
+    font-style: italic;
+    line-height: 1.5;
+  }
+}

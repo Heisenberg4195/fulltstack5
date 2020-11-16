@@ -23,3 +23,13 @@
     opacity: 1;
     visibility: visible;
   }
+
+  @mixin size($width, $height: $width) {
+    width: $width;
+    height: $height;
+  }
+  @mixin maxWidth($value) {
+    @media screen and (max-width: $value) {
+      @content;
+    }
+  }

@@ -1,5 +1,6 @@
 .contact {
  @include flexbox(center);
+ margin-bottom: 4rem;
 &-caption {
   margin-top: 4rem;
   text-align: center;
