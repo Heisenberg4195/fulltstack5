@@ -273,8 +273,8 @@ select {
 }
 
 .desc {
-  background: url(../../img/js1.jpg) no-repeat center center/cover;
-  padding: 6.5rem 0 22.3rem;
+  background: url(../../img/aboutus.jpeg) no-repeat top right/cover;
+  padding: 6.5rem 0 20rem;
 }
 .desc-about_us {
   padding-left: 38%;
