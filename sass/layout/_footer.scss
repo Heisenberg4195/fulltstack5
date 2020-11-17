@@ -1,29 +1,27 @@
 .footer {
   background-color:#F2F6F7;
   &-top {
-    padding: 6rem 2rem;
+    padding: 4rem 2rem;
     @include flexbox(flex-start, space-between);
-    margin-left: -5rem;
+    line-height: 3rem;
   }
   &_logo {
     max-height: 10rem;
   }
   &__header {
-    min-height: 10rem;
+    min-height: 1rem;
     margin-bottom: 3.5rem;
   }
   &-items {
     width: 25%;
     @include flexbox(flex-start, flex-start, column);
     padding-left: 5rem;
+
     &:nth-child(2) {
       width: 20%;
     }
     &:last-child {
       width: 30%;
-    }
-    &_text {
-      margin-bottom: 2rem;
     }
   }
   &-sub {
@@ -62,5 +60,6 @@
   }
   &-text {
     margin-left: 1rem;
+
   }
 }

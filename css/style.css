@@ -461,19 +461,19 @@ select {
   background-color: #F2F6F7;
 }
 .footer-top {
-  padding: 6rem 2rem;
+  padding: 4rem 2rem;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
   flex-direction: row;
   flex-wrap: nowrap;
-  margin-left: -5rem;
+  line-height: 3rem;
 }
 .footer_logo {
   max-height: 10rem;
 }
 .footer__header {
-  min-height: 10rem;
+  min-height: 1rem;
   margin-bottom: 3.5rem;
 }
 .footer-items {
@@ -490,9 +490,6 @@ select {
 }
 .footer-items:last-child {
   width: 30%;
-}
-.footer-items_text {
-  margin-bottom: 2rem;
 }
 .footer-sub {
   width: 100%;
