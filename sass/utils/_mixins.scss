@@ -9,8 +9,8 @@
     flex-direction: $dir;
     flex-wrap: $wrap;
   }
-  @mixin size($width, $height: $width) {
-    width: $width;
+  @mixin size($width, $ight: $width) {
+    width: $width;he
     height: $height;
   }
 
