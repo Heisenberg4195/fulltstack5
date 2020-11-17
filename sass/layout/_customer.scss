@@ -3,6 +3,7 @@
   margin-bottom: 5rem;
   &__container {
     max-width: 1375px;
+    padding-top: 1rem;
   }
   &__avatar {
     @include size(14rem);

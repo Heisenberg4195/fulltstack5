@@ -1,18 +1,17 @@
 .desc {
-  background: url(../../img/aboutus.jpeg) no-repeat top right / cover;
+  background: url(https://images.unsplash.com/photo-1536238202089-6ce355328a96?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80) no-repeat center right /cover;
   padding: 6.5rem 0 20rem;
   &-about_us {
-    padding-left: 38%;
-    padding-right: 10%;
+    padding-left: 40%;
+    padding-right: 20%;
   }
   &-caption {
     color: $primary-color;
-    font-size: 1.5rem;
-    margin-bottom: 4rem;
+    margin-bottom: 1rem;
   }
   &-content {
     line-height: 1.8;
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
   }
   &-direction {
     display: inline-flex;
