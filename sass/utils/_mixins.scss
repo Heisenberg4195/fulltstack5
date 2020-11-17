@@ -10,7 +10,7 @@
     flex-wrap: $wrap;
   }
   @mixin size($width, $ight: $width) {
-    width: $width;he
+    width: $width;
     height: $height;
   }
 
